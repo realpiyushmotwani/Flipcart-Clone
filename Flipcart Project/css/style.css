@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fira+Sans:ital,wght@1,300&family=Merriweather+Sans&family=Nunito:wght@200&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+
+:root {
+    --background-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--background-color);
+
+
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+.mainlogo {
+    display: flex;
+    align-items: center;
+}
+
+.mainlogo img {
+    width: 150px;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.searchbar input {
+    width:30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 6px 0 16px;
+    padding: 0 12px;
+
+
+}
+
+.searchbutton {
+    background-color: #2874f0;
+    padding: 3px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.slider {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+
+}
+.cardcontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.card-item {
+    display: flex inline;
+    justify-content: center;
+    flex-direction: column;
+    width: 8vw;
+    margin: 0 26px;
+}
+
+.card h3 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 0 12px 0;
+
+}
+
+footer {
+    height: 12vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
